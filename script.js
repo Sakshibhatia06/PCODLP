@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+   document.addEventListener("DOMContentLoaded", function () {
     let steps = document.querySelectorAll(".step");
     steps.forEach((step, index) => {
       setTimeout(() => {
@@ -28,3 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
       answer.style.display = answer.style.display === "block" ? "none" : "block";
     });
   });
+  function openPopup() {
+    document.getElementById("popup").style.display = "flex";
+}
+
+// Close Popup
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+// Submit Form (For now, just close the popup)
+function submitForm() {
+    alert("Form Submitted Successfully!");
+    closePopup();
+}
