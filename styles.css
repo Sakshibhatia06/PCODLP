@@ -996,19 +996,15 @@ a{
     }
 
     .connector-line {
-      width: 5px;
-      height: 90%;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 0;
+      display:none;
     }
 
     .step {
       width: 90%;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .icon {
-      top: -30px;
+      top: -55px;
     }
   }
