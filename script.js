@@ -39,6 +39,5 @@ function closePopup() {
 
 // Submit Form (For now, just close the popup)
 function submitForm() {
-    alert("Form Submitted Successfully!");
     closePopup();
 }
