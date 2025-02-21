@@ -37,8 +37,9 @@ function closePopup() {
     document.getElementById("popup").style.display = "none";
 }
 
-// Submit Form (For now, just close the popup)
-function submitForm() {
-    event.preventDefault();
-    closePopup();
-}
+function submitForm(event) {
+        event.preventDefault(); // Prevent default form submission
+        window.location.href = "secondPage.html"; // Redirect to another page
+    }
+
+
