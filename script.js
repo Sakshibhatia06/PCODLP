@@ -39,5 +39,6 @@ function closePopup() {
 
 // Submit Form (For now, just close the popup)
 function submitForm() {
+    event.preventDefault();
     closePopup();
 }
