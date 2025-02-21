@@ -944,6 +944,10 @@ a{
 
   /* Mobile Responsiveness */
   @media (max-width: 768px) {
+      .profile-image {
+    height: 380px;
+    width: 330px;
+}
     .image-pro{
         width:300px;
          height:350px;
